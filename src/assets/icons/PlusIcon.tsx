@@ -7,7 +7,7 @@ export const PlusIcon = (props: React.SVGProps<SVGSVGElement>) => (
   >
     <path
       d="M5.26953 5.29962V49.2381"
-      stroke="#252525"
+      stroke="currentColor"
       stroke-width="9.61626"
       stroke-linecap="round"
       stroke-linejoin="round"

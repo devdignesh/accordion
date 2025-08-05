@@ -23,7 +23,7 @@ export const AccordionItem = ({
   return (
     <motion.div
       layout
-      className="border-b first:border-t border-gray-300 dark:border-gray-700 overflow-hidden"
+      className="border-b first:border-t border-gray-300 dark:border-zinc-700 overflow-hidden"
     >
       <button
         onClick={handleToggle}
@@ -33,7 +33,7 @@ export const AccordionItem = ({
           Q{questionId}. {question}
         </span>
         <span className="relative inline-block w-4 h-4 mr-2 sm:mr-4">
-          <MinusIcon className="absolute top-0 left-0 w-4 h-4" />
+          <MinusIcon className="absolute top-0 left-0 w-4 h-4 text-gray-900 dark:text-gray-100" />
           <AnimatePresence mode="wait" initial={false}>
             {!open && (
               <motion.div
@@ -44,7 +44,7 @@ export const AccordionItem = ({
                 transition={{ duration: 0.2, ease: "easeInOut" }}
                 className="absolute top-0 left-0"
               >
-                <PlusIcon className="w-4 h-4" />
+                <PlusIcon className="w-4 h-4 text-gray-900 dark:text-gray-100" />
               </motion.div>
             )}
           </AnimatePresence>
