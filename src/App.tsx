@@ -1,6 +1,6 @@
 import { Accordion } from "./components/Accordion/Accordion";
 import AppLayout from "./components/AppLayout";
-import Header from "./components/header";
+import Header from "./components/Header";
 import { ThemeProvider } from "./providers/theme-provider";
 
 function App() {
